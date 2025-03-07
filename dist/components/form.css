@@ -591,7 +591,7 @@
   border-color: #e0b4b4;
 }
 
-/* Preserve Native Select Stylings */
+/* Preserve Native Select Styling */
 .ui.form .field.error select {
   -webkit-appearance: menulist-button;
 }
@@ -832,7 +832,7 @@
   border-color: #a9d5de;
 }
 
-/* Preserve Native Select Stylings */
+/* Preserve Native Select Styling */
 .ui.form .field.info select {
   -webkit-appearance: menulist-button;
 }
@@ -1073,7 +1073,7 @@
   border-color: #a3c293;
 }
 
-/* Preserve Native Select Stylings */
+/* Preserve Native Select Styling */
 .ui.form .field.success select {
   -webkit-appearance: menulist-button;
 }
@@ -1314,7 +1314,7 @@
   border-color: #c9ba9b;
 }
 
-/* Preserve Native Select Stylings */
+/* Preserve Native Select Styling */
 .ui.form .field.warning select {
   -webkit-appearance: menulist-button;
 }

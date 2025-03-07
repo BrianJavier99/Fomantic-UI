@@ -25241,6 +25241,10 @@ em[data-emoji="regional_indicator_a"]::before {
 /*******************************
              Emojis
 *******************************/
+
+/*******************************
+         Site Overrides
+*******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Flag
  * https://github.com/fomantic/Fomantic-UI/
@@ -42479,7 +42483,7 @@ ol.ui.suffixed.list li::before,
 *******************************/
 
 /*******************************
-    User Variable Overrides
+         Site Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Loader
@@ -43615,6 +43619,10 @@ ol.ui.suffixed.list li::before,
 
 /*******************************
          Theme Overrides
+*******************************/
+
+/*******************************
+         Site Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Rail
@@ -47377,6 +47385,10 @@ span.ui.massive.text {
 /*******************************
          Theme Overrides
 *******************************/
+
+/*******************************
+         Site Overrides
+*******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Breadcrumb
  * https://github.com/fomantic/Fomantic-UI/
@@ -48184,7 +48196,7 @@ span.ui.massive.text {
   border-color: #e0b4b4;
 }
 
-/* Preserve Native Select Stylings */
+/* Preserve Native Select Styling */
 
 .ui.form .field.error select {
   -webkit-appearance: menulist-button;
@@ -48459,7 +48471,7 @@ span.ui.massive.text {
   border-color: #a9d5de;
 }
 
-/* Preserve Native Select Stylings */
+/* Preserve Native Select Styling */
 
 .ui.form .field.info select {
   -webkit-appearance: menulist-button;
@@ -48734,7 +48746,7 @@ span.ui.massive.text {
   border-color: #a3c293;
 }
 
-/* Preserve Native Select Stylings */
+/* Preserve Native Select Styling */
 
 .ui.form .field.success select {
   -webkit-appearance: menulist-button;
@@ -49009,7 +49021,7 @@ span.ui.massive.text {
   border-color: #c9ba9b;
 }
 
-/* Preserve Native Select Stylings */
+/* Preserve Native Select Styling */
 
 .ui.form .field.warning select {
   -webkit-appearance: menulist-button;
@@ -55172,7 +55184,7 @@ Floated Menu / Item
 *******************************/
 
 /*******************************
-        Site Overrides
+         Site Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Table
@@ -59571,7 +59583,7 @@ Floated Menu / Item
 *******************************/
 
 /*******************************
-    User Variable Overrides
+         Site Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Card
@@ -61719,7 +61731,7 @@ a.inverted.ui.card:hover,
 *******************************/
 
 /*******************************
-    User Variable Overrides
+         Site Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Comment
@@ -62036,7 +62048,7 @@ a.inverted.ui.card:hover,
 *******************************/
 
 /*******************************
-    User Variable Overrides
+         Site Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Feed
@@ -62988,7 +63000,7 @@ a.inverted.ui.card:hover,
 *******************************/
 
 /*******************************
-    User Variable Overrides
+         Site Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Item
@@ -63605,7 +63617,7 @@ a.inverted.ui.card:hover,
 *******************************/
 
 /*******************************
-    User Variable Overrides
+         Site Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Statistic
@@ -64283,7 +64295,7 @@ a.inverted.ui.card:hover,
 *******************************/
 
 /*******************************
-    User Variable Overrides
+         Site Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Accordion
@@ -65076,6 +65088,10 @@ a.inverted.ui.card:hover,
 
 /*******************************
          Theme Overrides
+*******************************/
+
+/*******************************
+        User Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Checkbox
@@ -68404,16 +68420,16 @@ select.ui.dropdown {
 
 /* Upward pointing */
 
-.ui.pointing.upward.dropdown .menu,
-.ui.top.pointing.upward.dropdown .menu {
+.ui.pointing.upward.dropdown > .menu,
+.ui.top.pointing.upward.dropdown > .menu {
   top: auto !important;
   bottom: 100% !important;
   margin: 0 0 0.78571429rem;
   border-radius: 0.28571429rem;
 }
 
-.ui.pointing.upward.dropdown .menu::after,
-.ui.top.pointing.upward.dropdown .menu::after {
+.ui.pointing.upward.dropdown > .menu::after,
+.ui.top.pointing.upward.dropdown > .menu::after {
   top: 100% !important;
   bottom: auto !important;
   box-shadow: 1px 1px 0 0 rgba(34, 36, 38, 0.15);
@@ -69586,6 +69602,10 @@ body.pushable > .pusher {
 
 /*******************************
          Theme Overrides
+*******************************/
+
+/*******************************
+        User Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Modal
@@ -74200,6 +74220,10 @@ a.ui.nag {
 /*******************************
         Slider Overrides
 *******************************/
+
+/*******************************
+        User Overrides
+*******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Rating
  * https://github.com/fomantic/Fomantic-UI/
@@ -77123,6 +77147,10 @@ body.pushable > .pusher {
 
 /*******************************
          Theme Overrides
+*******************************/
+
+/*******************************
+        User Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Transition
