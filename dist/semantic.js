@@ -9835,11 +9835,9 @@
                             .attr('data-' + metadata.value, escapedValue)
                             .html(templates.label(escapedValue, text, settings.preserveHTML, settings.className))
                         ;
-                        $label.on ("click", function(){
-                            console.log("CLICEKD!")
-    
+                        $label.on ("click", function() {
                             if ($(this).hasClass('editing')) {
-                            return;
+                                return;
                             }
                             $(this).addClass('editing');
                             $(this).html($(this).children())
@@ -9856,17 +9854,13 @@
                             inputDiv.on('blur', function() {
                                 let input = $(this);
                                 let container = input.parent()
-                                
-                                    console.log(input.val())  
-                                
                                 container.attr('data-value', input.val());
-                                console.log(container.data('value'))
                                 container.prepend(input.val())
                                 container.removeClass('editing');
                                 input.remove()
                             })
                             $(this).prepend(inputDiv)
-                            inputDiv.focus();
+                            inputDiv.trigger("focus")
                         })
                         $label = settings.onLabelCreate.call($label, escapedValue, text);
 
