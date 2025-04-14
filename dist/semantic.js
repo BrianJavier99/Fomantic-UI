@@ -9854,6 +9854,9 @@
                             inputDiv.on('blur', function() {
                                 let input = $(this);
                                 let container = input.parent()
+                                if (!(input.val()).trim()) {
+                                    container.remove();
+                                }
                                 container.attr('data-value', input.val());
                                 container.prepend(input.val())
                                 container.removeClass('editing');

@@ -25241,6 +25241,10 @@ em[data-emoji="regional_indicator_a"]::before {
 /*******************************
              Emojis
 *******************************/
+
+/*******************************
+         Site Overrides
+*******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Flag
  * https://github.com/fomantic/Fomantic-UI/
@@ -39087,12 +39091,6 @@ a.ui.label {
   margin: 0 0 0 0.5em;
 }
 
-/* Edited label close/delete icon positioning */
-.ui.label.editing:not(.icon) > .close.icon,
-.ui.label.editing:not(.icon) > .delete.icon {
-  margin: .3em 0 0 0.5em;
-}
-
 /* Label for only an icon */
 
 .ui.icon.label > .icon {
@@ -42485,7 +42483,7 @@ ol.ui.suffixed.list li::before,
 *******************************/
 
 /*******************************
-    User Variable Overrides
+         Site Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Loader
@@ -43621,6 +43619,10 @@ ol.ui.suffixed.list li::before,
 
 /*******************************
          Theme Overrides
+*******************************/
+
+/*******************************
+         Site Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Rail
@@ -47383,6 +47385,10 @@ span.ui.massive.text {
 /*******************************
          Theme Overrides
 *******************************/
+
+/*******************************
+         Site Overrides
+*******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Breadcrumb
  * https://github.com/fomantic/Fomantic-UI/
@@ -48190,7 +48196,7 @@ span.ui.massive.text {
   border-color: #e0b4b4;
 }
 
-/* Preserve Native Select Stylings */
+/* Preserve Native Select Styling */
 
 .ui.form .field.error select {
   -webkit-appearance: menulist-button;
@@ -48465,7 +48471,7 @@ span.ui.massive.text {
   border-color: #a9d5de;
 }
 
-/* Preserve Native Select Stylings */
+/* Preserve Native Select Styling */
 
 .ui.form .field.info select {
   -webkit-appearance: menulist-button;
@@ -48740,7 +48746,7 @@ span.ui.massive.text {
   border-color: #a3c293;
 }
 
-/* Preserve Native Select Stylings */
+/* Preserve Native Select Styling */
 
 .ui.form .field.success select {
   -webkit-appearance: menulist-button;
@@ -49015,7 +49021,7 @@ span.ui.massive.text {
   border-color: #c9ba9b;
 }
 
-/* Preserve Native Select Stylings */
+/* Preserve Native Select Styling */
 
 .ui.form .field.warning select {
   -webkit-appearance: menulist-button;
@@ -55178,7 +55184,7 @@ Floated Menu / Item
 *******************************/
 
 /*******************************
-        Site Overrides
+         Site Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Table
@@ -59577,7 +59583,7 @@ Floated Menu / Item
 *******************************/
 
 /*******************************
-    User Variable Overrides
+         Site Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Card
@@ -61725,7 +61731,7 @@ a.inverted.ui.card:hover,
 *******************************/
 
 /*******************************
-    User Variable Overrides
+         Site Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Comment
@@ -62042,7 +62048,7 @@ a.inverted.ui.card:hover,
 *******************************/
 
 /*******************************
-    User Variable Overrides
+         Site Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Feed
@@ -62994,7 +63000,7 @@ a.inverted.ui.card:hover,
 *******************************/
 
 /*******************************
-    User Variable Overrides
+         Site Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Item
@@ -63611,7 +63617,7 @@ a.inverted.ui.card:hover,
 *******************************/
 
 /*******************************
-    User Variable Overrides
+         Site Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Statistic
@@ -64289,7 +64295,7 @@ a.inverted.ui.card:hover,
 *******************************/
 
 /*******************************
-    User Variable Overrides
+         Site Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Accordion
@@ -65082,6 +65088,10 @@ a.inverted.ui.card:hover,
 
 /*******************************
          Theme Overrides
+*******************************/
+
+/*******************************
+        User Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Checkbox
@@ -67429,6 +67439,18 @@ select.ui.dropdown {
   min-width: 5.05em;
 }
 
+/* Edited label close/delete icon positioning */
+
+.ui.multiple.search.dropdown > .ui.label.editing > .close.icon,
+.ui.multiple.search.dropdown > .ui.label.editing > .delete.icon {
+  margin: 0.3em 0 0 0.5em;
+}
+
+.ui.multiple.search.dropdown > .ui.label > input[type=text] {
+  padding: 1px;
+  width: 90%;
+}
+
 /* --------------
          Inline
     --------------- */
@@ -69592,6 +69614,10 @@ body.pushable > .pusher {
 
 /*******************************
          Theme Overrides
+*******************************/
+
+/*******************************
+        User Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Modal
@@ -74206,6 +74232,10 @@ a.ui.nag {
 /*******************************
         Slider Overrides
 *******************************/
+
+/*******************************
+        User Overrides
+*******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Rating
  * https://github.com/fomantic/Fomantic-UI/
@@ -77129,6 +77159,10 @@ body.pushable > .pusher {
 
 /*******************************
          Theme Overrides
+*******************************/
+
+/*******************************
+        User Overrides
 *******************************/
 /*!
  * # Fomantic-UI 2.9.4 - Transition
